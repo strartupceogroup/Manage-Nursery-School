@@ -1,6 +1,6 @@
 create database Manager_Nursery_School;
 
-use Manager_Nursery_School;
+use Manager_Nursery_School;  
 /* Bảng danh mục các loại lớp:
     A = Lớp dành cho trẻ dưới 1 năm tuổi
     B = Lớp dành cho trẻ từ 1 đến 2 năm tuổi
