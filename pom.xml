@@ -3,8 +3,8 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>core-manager</groupId>
-	<artifactId>core-manager</artifactId>
+	<groupId>manage.core</groupId>
+	<artifactId>nursery-school</artifactId>
 	<packaging>pom</packaging>
 	<version>1.0</version>
 	<name>Manager Nursery School</name>
@@ -17,11 +17,12 @@
 	</parent>
 
 	<modules>
-		<module>manage-api</module>
-		<module>manage-service</module>
 		<module>manage-model</module>
 		<module>manage-common</module>
 		<module>manage-storage</module>
+		<module>manage-service</module>
+		<module>manage-api</module>
+		<module>manage-gate</module>
 	</modules>
 	
 	<dependencies>
